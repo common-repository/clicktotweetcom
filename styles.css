@@ -1,0 +1,172 @@
+.click-to-tweet {
+	display:            block;
+	background-color:   #fff;
+	margin:             0;
+	padding:            0;
+	position:           relative;
+	border:             1px solid #dddddd;
+	-moz-border-radius: 4px;
+	border-radius:      4px;
+	padding:            15px 30px;
+	margin:             15px 0px;
+	zoom:               1;
+}
+
+.click-to-tweet .clearfix {
+	zoom: 1;
+}
+
+.click-to-tweet .clearfix:after {
+	display:    block;
+	visibility: hidden;
+	height:     0;
+	clear:      both;
+	content:    ".";
+}
+
+.click-to-tweet .clear {
+	clear: both;
+}
+
+.click-to-tweet .f-left {
+	float:    left;
+	display:  inline-block;
+	position: relative;
+}
+
+.click-to-tweet .f-right {
+	float:    right;
+	display:  inline-block;
+	position: relative;
+}
+
+.click-to-tweet .list-reset {
+	list-style: none;
+	margin:     0;
+	padding:    0;
+}
+
+.click-to-tweet .list-reset li {
+	list-style: none;
+	margin:     0;
+	padding:    0;
+}
+
+.click-to-tweet .list-float {
+	zoom: 1;
+}
+
+.click-to-tweet .list-float:after {
+	display:    block;
+	visibility: hidden;
+	height:     0;
+	clear:      both;
+	content:    ".";
+}
+
+.click-to-tweet .list-float li {
+	float:   left;
+	display: inline-block;
+}
+
+.click-to-tweet .kill-box-shadow {
+	box-shadow:         none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+}
+
+.click-to-tweet .alignright {
+	float:         right;
+	margin-bottom: 10px;
+	margin-left:   10px;
+	text-align:    right;
+}
+
+.click-to-tweet .alignleft {
+	float:         left;
+	margin-bottom: 10px;
+	margin-right:  10px;
+	text-align:    right;
+}
+
+.click-to-tweet:after {
+	content:     ".";
+	display:     block;
+	clear:       both;
+	visibility:  hidden;
+	line-height: 0;
+	height:      0;
+}
+
+.click-to-tweet .tm-ctt-reset {
+	margin:   0;
+	padding:  0;
+	position: relative;
+}
+
+.click-to-tweet:after {
+	display:    block;
+	visibility: hidden;
+	height:     0;
+	clear:      both;
+	content:    ".";
+}
+
+.click-to-tweet a {
+	text-decoration: none;
+	text-transform:  none;
+}
+
+.click-to-tweet a:hover {
+	text-decoration: none;
+}
+
+.click-to-tweet .ctt-text {
+	margin:        0;
+	padding:       0;
+	position:      relative;
+	margin-bottom: 10px;
+	word-wrap:     break-word;
+}
+
+.click-to-tweet .ctt-text a {
+	margin:          0;
+	padding:         0;
+	position:        relative;
+	color:           #999999;
+	font-size:       24px;
+	line-height:     140%;
+	text-transform:  none;
+	letter-spacing:  0.05em;
+	font-weight:     100;
+	text-decoration: none;
+	text-transform:  none;
+}
+
+.click-to-tweet .ctt-text a:hover {
+	text-decoration: none;
+	color:           #666666;
+}
+
+.click-to-tweet a.ctt-btn {
+	margin:          0;
+	padding:         0;
+	position:        relative;
+	display:         block;
+	text-transform:  uppercase;
+	font-family:     "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:       12px;
+	font-weight:     bold;
+	line-height:     100%;
+	color:           #999999;
+	float:           right;
+	padding-right:   24px;
+	text-decoration: none;
+	background:      transparent url(twitter-button.png) no-repeat right center;
+}
+
+.click-to-tweet a.ctt-btn:hover {
+	text-decoration: none;
+	color:           #666666;
+	text-transform:  uppercase;
+}
